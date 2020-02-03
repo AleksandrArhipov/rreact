@@ -3,10 +3,8 @@ import { Route } from "react-router-dom";
 import Main from "../content/main/main";
 import Profile from "../content/profile/profile";
 import Login from "../content/login/login";
-import News from "../content/news/news";
 import s from "./content.module.css";
 import DialogsContainer from "./dialogs/dialogs-container";
-import UsersContainer from "./users/users-container";
 import NewsContainer from "./news/news-container";
 
 const Content = props => {

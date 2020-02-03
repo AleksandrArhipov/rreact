@@ -56,7 +56,7 @@ const profileReducer = (state = initialState, action) => {
       return stateCopy;
 
     case CHANGE_POST: {
-      let stateCopy = { ...state, newPostText: action.text };
+      let stateCopy = { ...state, newPostText: action.newText };
       return stateCopy;
     }
 

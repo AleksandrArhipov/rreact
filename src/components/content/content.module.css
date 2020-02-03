@@ -1,0 +1,9 @@
+.wrap{
+    background-color: gainsboro;
+    min-height: 50px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 20px;
+}

@@ -1,0 +1,30 @@
+h2{
+    color: #333;
+}
+
+.myposts{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.myposts textarea{
+    width: 400px;
+    height: 100px;
+    resize: none;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+.myposts button{
+    display: block;
+    height: 50px;
+    width: 200px;
+    background-color: cadetblue;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 12px;
+    border: 1px solid black;
+}
